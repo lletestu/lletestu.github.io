@@ -5,7 +5,7 @@
     font-weight: bold;
 }
 
-* { 
+* {
     font-family: 'My Lucida', Console;
 }
 
@@ -13,7 +13,7 @@ html {
     font-size: 16px;
 }
 
-body { 
+body {
     background: linear-gradient(to bottom, #efefef, white) no-repeat;
     font-size: 62.5%;
     width:90%;
@@ -25,7 +25,7 @@ a {
     text-decoration: none;
 }
 
-.wrapper { 
+.wrapper {
     width: 100%;
     padding: 1.8573551263%; /* 25px*100% / 1346px */
     margin: 0 auto;
@@ -99,7 +99,7 @@ h3 {
     margin-bottom: 4.8543689320%; /* 100%*10px / 206px */
 }
 
-nav ul li a { 
+nav ul li a {
     font-size: 1.4em;
     font-weight: normal;
     color: #828c92;
@@ -123,7 +123,7 @@ nav ul li:last-child {
     margin-bottom: 30px;
 }
 
-.name-photo aside { 
+.name-photo aside {
     margin-right: 20px;
 }
 
@@ -134,12 +134,12 @@ h1 {
     margin-bottom: 8px;
 }
 
-.name p { 
+.name p {
     color: #a0aab1;
     font-size: 1.2em;
 }
 
-.name p img { 
+.name p img {
     margin-left: 1em;
 }
 
@@ -207,7 +207,7 @@ input.submit {
     background-image: url("../img/icon/station-white.png");
 }
 
-#albums { 
+#albums {
     margin-top: 20px;
 }
 
@@ -276,13 +276,33 @@ nav.browse a, nav.music a {
 
 }
 
+@media screen and (max-width: 480px) {
+  nav ul li {
+    margin-top: 5px;
+  }
+  aside {
+    display: none;
+  }
+
+  header .user a {
+    display : none;
+  }
+
+  main .station {
+    position: relative;
+    left: 15%;
+    margin-top: 15px;
+  }
+
+  .links {
+    display: none;
+  }
+
+}
+
 nav a.heavy { background: url("../img/icon/heavy.png") no-repeat 0px; }
 nav a.recent { background: url("../img/icon/recent.png") no-repeat 0px; }
 nav a.top { background: url("../img/icon/top.png") no-repeat 0px; }
 nav a.new { background: url("../img/icon/new.png") no-repeat 0px; }
 nav a.collection { background: url("../img/icon/collection.png") no-repeat 0px; }
 nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
-
-
-
-

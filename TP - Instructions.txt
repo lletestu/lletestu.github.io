@@ -15,10 +15,10 @@
 	- Afficher la tête de Luke Chesser en grand, centré sur l’écran du mobile
 	- Afficher son nom en dessous (en taille appropriée)
 	- Afficher les statistiques (playlist / reviews / followers / following de façon empilé
-	- Masquer les collection et history sur mobile
-	- Centrer le bouton « start station »
+	- Masquer les collection et history sur mobile OK
+	- Centrer le bouton « start station » OK
 	- Mettre à la ligne le champs de recherche
-	- Masquer le nom en haut à droite
+	- Masquer le nom en haut à droite OK
 	- Centrer le logo au milieu de l’écran
 	- Redimensionner la fenêtre du navigateur, et tester que la page est visuellement cohérente à toutes les résolutions. Faire les ajustements nécéssaires
 
