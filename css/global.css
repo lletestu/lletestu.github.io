@@ -264,6 +264,10 @@ nav.browse a, nav.music a {
     body .wrapper > aside {
         width: 8%
     }
+
+    body .wrapper > main {
+        width: 60%;
+    }
 }
 @media screen and (max-width: 992px) {
     nav ul li {
