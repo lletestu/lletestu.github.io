@@ -173,8 +173,8 @@ h2 {
 input.search {
     background: url("../img/icon/search.png") #ebeff1 no-repeat 8px;
     box-shadow: none;
-    height: 28px;
-    width: 300px;
+    height: 2.2em;
+    width: 23em;
     font-size: 13px;
     padding: 3px 6px 3px 25px;
     border: 1px solid #d0dde9;
@@ -245,6 +245,21 @@ input.submit {
 nav.browse a, nav.music a {
     padding-left: 20px;
     padding-top: 2px;
+}
+
+
+.features {
+    width: 33%
+}
+@media screen and (max-width: 768px) {
+    nav ul li {
+        margin-top: 2px;
+    }
+}
+@media screen and (max-width: 992px) {
+    nav ul li {
+        margin-top: 5px;
+    }
 }
 
 nav a.heavy { background: url("../img/icon/heavy.png") no-repeat 0px; }
