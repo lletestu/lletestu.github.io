@@ -255,11 +255,21 @@ nav.browse a, nav.music a {
     nav ul li {
         margin-top: 2px;
     }
+
+    input.search {
+        width: 18em;
+        height: 1.8em;
+    }
+
+    body .wrapper > aside {
+        width: 8%
+    }
 }
 @media screen and (max-width: 992px) {
     nav ul li {
         margin-top: 5px;
     }
+
 }
 
 nav a.heavy { background: url("../img/icon/heavy.png") no-repeat 0px; }
