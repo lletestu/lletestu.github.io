@@ -13,6 +13,8 @@ Design a web site using new technologies.
   <li>Responsive Design Web</li>
 </ul>
 
-## Authors (groupe 07)
+## Authors
+Alexandre Dejacques
 Lauren Letestu
+Thomas Pansart
 
