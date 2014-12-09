@@ -336,6 +336,11 @@ nav.browse a, nav.music a {
         float: none;
     }
 
+    #albums article img {
+        width: 30em;
+        height: 30em;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -385,6 +390,11 @@ nav.browse a, nav.music a {
         margin-top: 0.4em;
     }
 
+    #albums article img {
+        width: 25em;
+        height: 25em;
+    }
+
 }
 @media screen and (max-width: 992px) {
     nav ul li {
@@ -401,6 +411,11 @@ nav.browse a, nav.music a {
 
     header .name-photo aside {
         display: inline-block;
+    }
+
+    #albums article img {
+        width: 20em;
+        height: 20em;
     }
 
 }
