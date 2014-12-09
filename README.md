@@ -14,7 +14,7 @@ Design a web site using new technologies.
 </ul>
 
 ## Authors
-Alexandre Dejacques
-Lauren Letestu
-Thomas Pansart
+* Alexandre Dejacques
+* Lauren Letestu
+* Thomas Pansart
 
