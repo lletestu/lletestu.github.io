@@ -1,26 +1,26 @@
 
 1. Remplacer toutes les dimensions en pixel par des pourcentages / em  OK
 
-2. Faire de même pour les images
+2. Faire de même pour les images OK
 
 3. Régler le viewport pour les mobiles OK
 
-4. Définir 3 points de ruptures (desktop / tablette / téléphone)
+4. Définir 3 points de ruptures (desktop / tablette / téléphone)    OK
 @media queries comme dans le cours (par defaut / tablette / telephone)
 
 5. Ajuster la taille des texte lorsqu’un simple rapport proportionnel (em) n’a pas suffi
 
 6. Ajuster les détails avec des media queries
-	- Masquer la colonne de gauche sur mobile et sur tablette en mode portrait
-	- Afficher la tête de Luke Chesser en grand, centré sur l’écran du mobile
-	- Afficher son nom en dessous (en taille appropriée)
-	- Afficher les statistiques (playlist / reviews / followers / following de façon empilé
+	- Masquer la colonne de gauche sur mobile et sur tablette en mode portrait     Ok
+	- Afficher la tête de Luke Chesser en grand, centré sur l’écran du mobile    Ok
+	- Afficher son nom en dessous (en taille appropriée)   OK
+	- Afficher les statistiques (playlist / reviews / followers / following de façon empilé    Ok
 	- Masquer les collection et history sur mobile OK
 	- Centrer le bouton « start station » OK
-	- Mettre à la ligne le champs de recherche
+	- Mettre à la ligne le champs de recherche OK
 	- Masquer le nom en haut à droite OK
-	- Centrer le logo au milieu de l’écran
-	- Redimensionner la fenêtre du navigateur, et tester que la page est visuellement cohérente à toutes les résolutions. Faire les ajustements nécéssaires
+	- Centrer le logo au milieu de l’écran         OK
+	- Redimensionner la fenêtre du navigateur, et tester que la page est visuellement cohérente à toutes les résolutions. Faire les ajustements nécéssaires Ok
 
 
 7. Tester en live sur votre mobile en publiant la page sur GitHub Pages 

@@ -2,7 +2,7 @@
     font-family: 'My Lucida';
     src: url('../font/LucidaGrande.ttf');
     font-style: normal; 
-    font-weight: bold;
+font-weight: bold;
 }
 
 * {
@@ -40,7 +40,7 @@ body > header {
 
 header .logo-search {
     float: left;
-    width: 37.202380952%;   /* 500px*100% / 1344px */
+    /*width: 37.202380952%;   /* 500px*100% / 1344px */
 }
 
 header .logo-search img, header .logo-search form  {
@@ -251,15 +251,87 @@ nav.browse a, nav.music a {
 .features {
     width: 33%
 }
+
+@media screen and (max-width: 480px) {
+    nav ul li {
+        margin-top: 5px;
+    }
+
+    body .wrapper > main{
+        width: 90%;
+    }
+
+    /*header .logo-search {
+        width: 80.2024%;
+    } */
+
+    header .logo-search form {
+        margin-top: 1em;
+        text-align: left;
+    }
+
+    header .logo-search form input {
+        margin-top: 10px;
+    }
+
+    aside {
+        display: none;
+    }
+
+    header .user a {
+        display : none;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    header .stats-links{
+        text-align: left;
+    }
+
+    header .name-photo aside {
+        display: inline-block;
+        margin-left: 30%;
+    }
+
+    main .station {
+        position: relative;
+        left: 15%;
+        margin-top: 15px;
+    }
+
+    .links {
+        display: none;
+    }
+
+    input.search {
+        width: 6em;
+        height: 1em;
+    }
+
+    header .stats-links span {
+        display: inherit;
+    }
+
+    header .logo-search img, header .logo-search form {
+        float: none;
+    }
+
+}
+
 @media screen and (max-width: 768px) {
     nav ul li {
         margin-top: 2px;
     }
 
-    input.search {
-        width: 18em;
-        height: 1.8em;
+    body .wrapper > main{
+        width: 90%;
     }
+
+    /*header .logo-search {
+        width: 88.2024%;
+    }  */
 
     body .wrapper > aside {
         width: 8%
@@ -268,37 +340,54 @@ nav.browse a, nav.music a {
     body .wrapper > main {
         width: 60%;
     }
+
+    aside {
+        display: none;
+    }
+
+    header .user a {
+        display : none;
+    }
+
+    header .stats-links span {
+        display: inherit;
+    }
+
+    body .wrapper > main{
+        width: 90%;
+    }
+
+    header .name-photo aside {
+        display: inline-block;
+    }
+
+    input.search {
+        height: 1em;
+        width: 10em;
+        margin-top: 0.4em;
+    }
+
+    /*header .logo-search {
+        width: 37.202380952%;
+    }*/
+
 }
 @media screen and (max-width: 992px) {
     nav ul li {
         margin-top: 5px;
     }
 
-}
+    body .wrapper > main{
+        width: 90%;
+    }
 
-@media screen and (max-width: 480px) {
-  nav ul li {
-    margin-top: 5px;
-  }
-  aside {
-    display: none;
-  }
-
-  header .user a {
-    display : none;
-  }
-
-  main .station {
-    position: relative;
-    left: 15%;
-    margin-top: 15px;
-  }
-
-  .links {
-    display: none;
-  }
+    /*header .logo-search {
+        width: 37.202380952%;
+    }  */
 
 }
+
+
 
 nav a.heavy { background: url("../img/icon/heavy.png") no-repeat 0px; }
 nav a.recent { background: url("../img/icon/recent.png") no-repeat 0px; }
