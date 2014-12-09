@@ -39,7 +39,7 @@ body > header {
 }
 
 header .logo-search {
-    float: left;
+    /* float: left;  */
     /*width: 37.202380952%;   /* 500px*100% / 1344px */
 }
 
@@ -258,12 +258,17 @@ nav.browse a, nav.music a {
     }
 
     body .wrapper > main{
-        width: 90%;
+        width: 100%;
+        text-align: center;
     }
 
-    /*header .logo-search {
-        width: 80.2024%;
-    } */
+    main header .statistics {
+        float: none;
+    }
+
+    header .logo-search form {
+        display: none;
+    }
 
     header .logo-search form {
         margin-top: 1em;
@@ -272,6 +277,23 @@ nav.browse a, nav.music a {
 
     header .logo-search form input {
         margin-top: 10px;
+    }
+
+    main header .name-photo aside {
+        float: none;
+        margin: 0%;
+    }
+
+    main header .name-photo aside img {
+        width: 8em;
+    }
+
+    main header .name {
+        float: none;
+    }
+
+    main .station {
+        display: none;
     }
 
     aside {
@@ -284,10 +306,6 @@ nav.browse a, nav.music a {
 
     header {
         text-align: center;
-    }
-
-    header .stats-links{
-        text-align: left;
     }
 
     header .name-photo aside {
@@ -326,12 +344,8 @@ nav.browse a, nav.music a {
     }
 
     body .wrapper > main{
-        width: 90%;
+        width: 100%;
     }
-
-    /*header .logo-search {
-        width: 88.2024%;
-    }  */
 
     body .wrapper > aside {
         width: 8%
@@ -349,8 +363,12 @@ nav.browse a, nav.music a {
         display : none;
     }
 
+    header .stats-links .links {
+        display: none;
+    }
+
     header .stats-links span {
-        display: inherit;
+        /*display: inherit;   */
     }
 
     body .wrapper > main{
@@ -367,10 +385,6 @@ nav.browse a, nav.music a {
         margin-top: 0.4em;
     }
 
-    /*header .logo-search {
-        width: 37.202380952%;
-    }*/
-
 }
 @media screen and (max-width: 992px) {
     nav ul li {
@@ -378,12 +392,16 @@ nav.browse a, nav.music a {
     }
 
     body .wrapper > main{
-        width: 90%;
+        width: 100%;
     }
 
-    /*header .logo-search {
-        width: 37.202380952%;
-    }  */
+    aside {
+        display: none;
+    }
+
+    header .name-photo aside {
+        display: inline-block;
+    }
 
 }
 
